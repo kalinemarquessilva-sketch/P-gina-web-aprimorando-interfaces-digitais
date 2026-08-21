@@ -1,20 +1,20 @@
 header{
-        background-color: rgb(123, 7, 26); 
-        color: rgb(250, 248, 248);
-        text-align: center;  
-        max-width: 800px;
-        margin: auto;
-        padding: 16px;
-        border: 5px solid #020000;
-        }
-        main{
-            background-color:rgb(246, 243, 243);
-            color: rgb(123, 7, 7);
-            max-width: 800px;
-            margin: auto;
-            padding: 16px;
-        }
-        img {
-            width: 80px;
-            height: 80px;
-        }
+background-color: rgb(123, 7, 26); 
+color: rgb(250, 248, 248);
+text-align: center;  
+max-width: 800px;
+margin: auto;
+padding: 16px;
+border: 5px solid #020000;
+}
+main{
+background-color:rgb(246, 243, 243);
+color: rgb(123, 7, 7);
+max-width: 800px;
+margin: auto;
+padding: 16px;
+}
+img {
+width: 80px;
+height: 80px;
+}

@@ -1,37 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caderno de giz</title>
-    <style>
-        header{
-        background-color: rgb(123, 7, 26); 
-        color: rgb(250, 248, 248);
-        text-align: center;  
-        max-width: 800px;
-        margin: auto;
-        padding: 16px;
-        border: 5px solid #020000;
-        }
-        main{
-            background-color:rgb(246, 243, 243);
-            color: rgb(123, 7, 7);
-            max-width: 800px;
-            margin: auto;
-            padding: 16px;
-        }
-        img {
-            width: 80px;
-            height: 80px;
-        }
-    </style>
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
     <header>
         <h1>Caderno de giz</h1>
     <h5>Nesse site vamos falar sobre casos criminais que acontecem pelo mundo todo</h5>
     </header>
+    <main>
+    <img src="_jpeg" alt="Mão segurando camera antiga em estilo colagem preta e branca de jornal" widht="300">
+
+    <h2>Caso de Wheeler</h2>
+    <p>Por: Kaline Raissa</p>
+    <button>❤️ <span>0</span></button>
+    <button>👎​ <span>0</span></button>
+
+
+
     <main>
         <img src="_jpeg" alt="Mão segurando camera antiga em estilo colagem preta e branca de jornal" widht="300">
 
@@ -40,30 +29,9 @@
     <button>❤️ <span>0</span></button>
     <button>👎​ <span>0</span></button>
 
-    <p>O caso de Wheeler chamou tanto a atenção da comunidade científica que inspirou os psicólogos David Dunning e Justin Kruger a realizarem um estudo profundo sobre a cognição humana. A partir desse crime, eles identificaram o Efeito Dunning-Kruger: um fenômeno psicológico em que pessoas com pouco conhecimento ou habilidade em uma área têm a ilusão de que são extremamente competentes e inteligentes, sendo incapazes de reconhecer a própria ignorância.</p>
-    <h3>O Assalto Invisível</h3>
-    <p>No dia 19 de abril de 1995, McArthur Wheeler assaltou dois bancos na cidade de Pittsburgh, na Pensilvânia, em plena luz do dia.Sem disfarces: Ele não usou máscaras, capuz ou qualquer tipo de barreira física para cobrir o rosto.Sorrisos para as câmeras: Confiante, ele olhou e chegou a sorrir diretamente para as câmeras de segurança dos locais.</p>
-    <h4>O Impacto na Psicologia: O Efeito Dunning-Kruger</h4>
-    <p>A notícia desse assalto chamou a atenção dos psicólogos David Dunning e Justin Kruger, da Universidade de Cornell. Eles começaram a estudar a profunda falta de autocrítica e a ignorância de Wheeler.</p>
-    <p>A partir disso, eles realizaram estudos e formularam o Efeito Dunning-Kruger, um viés cognitivo que demonstra duas regras principais:</p>
-    <p>Pessoas com baixo conhecimento ou incompetência em uma área tendem a superestimar severamente suas próprias habilidades, pois falta a elas o repertório necessário para perceber os próprios erros.Pessoas com alto conhecimento ou especialistas tendem a subestimar suas habilidades, achando que as tarefas são fáceis para todo mundo e mantendo-se conscientes do quanto ainda não sabem.Em resumo, McArthur Wheeler era tão ignorante sobre o funcionamento da ótica, das câmeras e da química que era incapaz de perceber a estupidez do seu próprio plano.</p>
-
-
      </main>
+     <script src="script.js"></script>
   </body>
-  <script>
-    const botoes = document.querySelectorAll("button")
-
-    botoes.forEach( function(botao){
-         botao.addEventListener("click", botaoClicado )
-         function botaoClicado(){
-        console.log("fui clicado ")
-        let texto = botao.querySelector("span")
-        texto.textContent++
-         }
-
-    } )
-
-  </script>
+ 
 </html>
     
